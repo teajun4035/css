@@ -48,7 +48,7 @@ header .row>div:nth-child(1)>a>img {
 
 header #right-search-form>input[type=text] {
 
-    border: 3px solid #FF9436; /* 검색창 테두리 색 */
+    border: 3px solid #D1B2FF; /* 검색창 테두리 색 */
 
     border-radius: 10px;
 
@@ -86,9 +86,9 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
 header #header-bar>.row {
 
-    border-top: 5px solid #AD8EDB !important; /* 광고 배너 테두리 색 */
+    border-top: 5px solid #7758A5 !important; /* 광고 배너 테두리 색 */
 
-    border: 1px solid #AD8EDB; /* 광고 배너 테두리 색 */
+    border: 1px solid #7758A5; /* 광고 배너 테두리 색 */
 
 }
 
@@ -100,7 +100,7 @@ header #header-bar>.row {
 
 header #header-bar #header-top-notice strong.notice-badge {
 
-    background: #4B0CA5; /* 광고 배너 광고 뱃지 배경 색상 */
+    background: #D1B2FF; /* 광고 배너 광고 뱃지 배경 색상 */
 
 }
 
@@ -112,7 +112,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper {
 
-    border: 1px solid #FFFFFF; /* 좌측 배너 테두리 색 */
+    border: 5px solid #FFFFFF; /* 좌측 배너 테두리 색 */
 
     border-top: none !important;
 
@@ -152,7 +152,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper a:nth-last-child(1) {
 
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 10px 10px;
 
 }
 
@@ -164,9 +164,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main #main-content>div.frame {
 
-    border-top: 5px solid #FF5E00 !important; /* 메인 배너 테두리 */
+    border-top: 5px solid #D1B2FF !important; /* 메인 배너 테두리 */
 
-    border: 1px solid #FF5E00; /* 메인 배너 테두리 */
+    border: 1px solid #D1B2FF; /* 메인 배너 테두리 */
 
 }
 
@@ -178,7 +178,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
 
-    color: #FFBB00; /* 접속자 수 글씨 색 */
+    color: #D1B2FF; /* 접속자 수 글씨 색 */
 
 }
 
@@ -186,7 +186,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area #viewers:before {
 
-    content: "숫자옆에 들어갈 문구";    /* 숫자 앞에 들어갈 문구 */
+    content: "라게더에 구경중인";    /* 숫자 앞에 들어갈 문구 */
 
         /* ex) content: "트수 "; */
 
@@ -200,7 +200,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area #viewers:after {
 
-    content: "숫자 뒤에 들어갈 문구";    /* 숫자 뒤에 들어갈 문구 */
+    content: "명의 트수들";    /* 숫자 뒤에 들어갈 문구 */
 
         /* ex) content: "명 접속중"; */
 
