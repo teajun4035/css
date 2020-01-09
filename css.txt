@@ -48,7 +48,11 @@ header .row>div:nth-child(1)>a>img {
 
 /* 검색 버튼 */
 
+<<<<<<< HEAD
 #right-search-form > #right-search-btn{
+=======
+    border: 3px solid #D1B2FF; /* 검색창 테두리 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
   color : #666;
 
@@ -163,7 +167,11 @@ header #header-bar>.row {
 
 header #header-bar #header-top-notice strong.notice-badge {
 
+<<<<<<< HEAD
     background: #7758A5; /* 광고 배너 광고 뱃지 배경 색상 */
+=======
+    background: #D1B2FF; /* 광고 배너 광고 뱃지 배경 색상 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -175,7 +183,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper {
 
+<<<<<<< HEAD
     border: none !important; /* 좌측 배너 테두리 색 */
+=======
+    border: 5px solid #FFFFFF; /* 좌측 배너 테두리 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
     border-top: none !important;
 
@@ -227,9 +239,15 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main #main-content>div.frame {
 
+<<<<<<< HEAD
     border-top: 5px solid #7758A5 !important; /* 메인 배너 테두리 */
 
     border: 1px solid #7758A5; /* 메인 배너 테두리 */
+=======
+    border-top: 5px solid #D1B2FF !important; /* 메인 배너 테두리 */
+
+    border: 1px solid #D1B2FF; /* 메인 배너 테두리 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -241,7 +259,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
 
+<<<<<<< HEAD
     color: #7758A5; /* 접속자 수 글씨 색 */
+=======
+    color: #D1B2FF; /* 접속자 수 글씨 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -249,7 +271,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area #viewers:before {
 
+<<<<<<< HEAD
     content: "라게더 구경중인 ";    /* 숫자 앞에 들어갈 문구 */
+=======
+    content: "라게더에 구경중인";    /* 숫자 앞에 들어갈 문구 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
         /* ex) content: "트수 "; */
 
@@ -263,7 +289,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area #viewers:after {
 
+<<<<<<< HEAD
     content: " 명의 트수들";    /* 숫자 뒤에 들어갈 문구 */
+=======
+    content: "명의 트수들";    /* 숫자 뒤에 들어갈 문구 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
         /* ex) content: "명 접속중"; */
 
@@ -281,7 +311,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row.notice {
 
+<<<<<<< HEAD
     background-color: #FAEBFF; /* 공지 배경 색 */
+=======
+    background-color: #D1B2FF; /* 공지 배경 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -293,7 +327,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row>.item>.list-header>span {
 
+<<<<<<< HEAD
     background-color: #7758A5; /* 글 추천 수 배경 색 */
+=======
+    background-color: #FEB8B8; /* 글 추천 수 배경 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -305,7 +343,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 
+<<<<<<< HEAD
     color: #7758A5; /* 댓글 수 색 */
+=======
+    color: #FEB8B8; /* 댓글 수 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -313,7 +355,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-reply-area > .header h5 {
 
+<<<<<<< HEAD
     color:#7758A5; /* 댓글 수 색 */
+=======
+    color: #FEB8B8; /* 댓글 수 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -369,9 +415,15 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 .btn-primary {
 
+<<<<<<< HEAD
     background-color: #7758A5; /* 글 쓰기 버튼 배경 색 */
 
     border-color: #7758A5; /* 글 쓰기 버튼 배경 색 */
+=======
+    background-color: #C6B0FB; /* 글 쓰기 버튼 배경 색 */
+
+    border-color: #C6B0FB; /* 글 쓰기 버튼 배경 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -685,8 +737,14 @@ background-image:url('https://cdn.discordapp.com/attachments/460145928850898945/
 
 /*댓글 좋아요 대댓글 글자색 변경*/
 
+<<<<<<< HEAD
 .reply-menu>a{
 
     color: black;
+=======
+    color: #C6B0FB; /* 추천 버튼 배경 색 */
+
+    border-color: #C6B0FB; /* 추천 버튼 테두리 색 */
+>>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
