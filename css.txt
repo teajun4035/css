@@ -135,7 +135,7 @@ header .row>div:nth-child(1)>a>img {
 }
 
 
-/* 배너 */
+/* 각종 배너 모서리 둥글기*/
 
 
 
@@ -147,13 +147,13 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
 
 
-/* 광고 배너 */
+/* 광고 배너 테두리*/
 
 
 
 header #header-bar>.row {
 
-    border-top: 5px solid #7758A5 !important; /* 광고 배너 테두리 색 */
+    border-top: 5px solid #7758A5 !important; /* 광고 배너 윗 강조줄 테두리 색 */
 
     border: 1px solid #7758A5; /* 광고 배너 테두리 색 */
 
@@ -167,14 +167,9 @@ header #header-bar>.row {
 
 header #header-bar #header-top-notice strong.notice-badge {
 
-<<<<<<< HEAD
     background: #7758A5; /* 광고 배너 광고 뱃지 배경 색상 */
-=======
-    background: #D1B2FF; /* 광고 배너 광고 뱃지 배경 색상 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
-
 
 
 /* 좌측 배너 */
