@@ -1,3 +1,47 @@
+/*눈내리는 효과*/
+html {
+
+   background: linear-gradient(to bottom, #D1B2FF, #FFFFFF);
+            /*눈내리는 효과 그라데이션 배경색 (바닥까지, 이색에서, 이색으로)라는의미*/
+
+  height: auto !important;
+
+}
+
+
+
+body {
+
+background: transparent;
+
+animation: snow 20s linear infinite; /*눈처럼 떨어지는 효과를 의미*/
+
+
+
+/*백그라운드 이미지 원근감느낌 이미지*/
+
+background-image:url('https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png'), url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png"), url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
+
+    /*애니메이션 이미지 변경하고싶으면 여기서 URL만 바꾸자*/
+    
+}
+
+
+
+
+
+/*뒷배경 움직이는 애니메이션*/
+
+@keyframes snow {
+
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+
+}
+
+
+
 /* 배경 */
 
 
@@ -41,6 +85,17 @@ header .row>div:nth-child(1)>a>img {
 }
 
 
+/* 각종 배너 모서리 둥글기*/
+
+
+
+header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
+
+    border-radius: 10px;
+
+}
+
+
 
 /* 검색폼 */
 
@@ -48,11 +103,7 @@ header .row>div:nth-child(1)>a>img {
 
 /* 검색 버튼 */
 
-<<<<<<< HEAD
 #right-search-form > #right-search-btn{
-=======
-    border: 3px solid #D1B2FF; /* 검색창 테두리 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
   color : #666;
 
@@ -135,25 +186,16 @@ header .row>div:nth-child(1)>a>img {
 }
 
 
-/* 각종 배너 모서리 둥글기*/
 
 
 
-header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
-
-    border-radius: 10px;
-
-}
-
-
-
-/* 광고 배너 테두리*/
+/* 광고 배너 */
 
 
 
 header #header-bar>.row {
 
-    border-top: 5px solid #7758A5 !important; /* 광고 배너 윗 강조줄 테두리 색 */
+    border-top: 5px solid #7758A5 !important; /* 광고 배너 테두리 색 */
 
     border: 1px solid #7758A5; /* 광고 배너 테두리 색 */
 
@@ -172,17 +214,14 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 
+
 /* 좌측 배너 */
 
 
 
 #main .menu-wrapper {
 
-<<<<<<< HEAD
     border: none !important; /* 좌측 배너 테두리 색 */
-=======
-    border: 5px solid #FFFFFF; /* 좌측 배너 테두리 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
     border-top: none !important;
 
@@ -234,15 +273,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main #main-content>div.frame {
 
-<<<<<<< HEAD
     border-top: 5px solid #7758A5 !important; /* 메인 배너 테두리 */
 
     border: 1px solid #7758A5; /* 메인 배너 테두리 */
-=======
-    border-top: 5px solid #D1B2FF !important; /* 메인 배너 테두리 */
-
-    border: 1px solid #D1B2FF; /* 메인 배너 테두리 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -254,11 +287,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
 
-<<<<<<< HEAD
     color: #7758A5; /* 접속자 수 글씨 색 */
-=======
-    color: #D1B2FF; /* 접속자 수 글씨 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -266,11 +295,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area #viewers:before {
 
-<<<<<<< HEAD
     content: "라게더 구경중인 ";    /* 숫자 앞에 들어갈 문구 */
-=======
-    content: "라게더에 구경중인";    /* 숫자 앞에 들어갈 문구 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
         /* ex) content: "트수 "; */
 
@@ -284,11 +309,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area #viewers:after {
 
-<<<<<<< HEAD
     content: " 명의 트수들";    /* 숫자 뒤에 들어갈 문구 */
-=======
-    content: "명의 트수들";    /* 숫자 뒤에 들어갈 문구 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
         /* ex) content: "명 접속중"; */
 
@@ -306,11 +327,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row.notice {
 
-<<<<<<< HEAD
     background-color: #FAEBFF; /* 공지 배경 색 */
-=======
-    background-color: #D1B2FF; /* 공지 배경 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -322,11 +339,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row>.item>.list-header>span {
 
-<<<<<<< HEAD
     background-color: #7758A5; /* 글 추천 수 배경 색 */
-=======
-    background-color: #FEB8B8; /* 글 추천 수 배경 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -338,11 +351,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 
-<<<<<<< HEAD
     color: #7758A5; /* 댓글 수 색 */
-=======
-    color: #FEB8B8; /* 댓글 수 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
@@ -350,17 +359,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-reply-area > .header h5 {
 
-<<<<<<< HEAD
     color:#7758A5; /* 댓글 수 색 */
-=======
-    color: #FEB8B8; /* 댓글 수 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
 
 
-/* 인기글 버튼 */
+/* 인기글 버튼_인기글이없어서 변화 확인 못해봄 ㅠㅠㅠㅠ */
 
 
 
@@ -372,7 +377,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 
 
-/* 설정 버튼 */
+/* 설정 버튼 둥글기 */
 
 
 
@@ -384,7 +389,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 
 
-/* 삭제 버튼 */
+/* 삭제 버튼 둥글기 */
 
 
 
@@ -396,7 +401,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 
 
-/* 글 쓰기 버튼 */
+/* 글 쓰기 버튼 둥글기 */
 
 
 
@@ -410,27 +415,22 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 .btn-primary {
 
-<<<<<<< HEAD
     background-color: #7758A5; /* 글 쓰기 버튼 배경 색 */
 
     border-color: #7758A5; /* 글 쓰기 버튼 배경 색 */
-=======
-    background-color: #C6B0FB; /* 글 쓰기 버튼 배경 색 */
-
-    border-color: #C6B0FB; /* 글 쓰기 버튼 배경 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
 
 }
 
 
 
-/* 목록 버튼 */
+
+/* 목록 버튼 둥글기 _ 목록이 나올만큼 글이없어서 확인못함 */
 
 
 
 .btn {
 
-    border-radius: 10px;
+    border-radius: 10px; /* 목록 버튼 둥글기의 정도*/
 
 }
 
@@ -445,6 +445,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 
 /* 게시글 추천 */
+    /*코드 분석이 완벽하지 않아서 잘 모른다*/
+    /*변경하고 싶다면 색상코드부분과 WHITE부분은 각각 통일할 것*/
+    /*background: white; 처럼 WHITE라고 적히면 모두 똑같이 통일*/
+    /*  border: solid #0275D8 3px; 처럼 #000000같은 색상코드 부분역시 모두 똑같이 통일*/
 
 .vote-btn[data-type="up"] {
 
@@ -548,7 +552,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 }
 
-/* 게시글 비추천 */
+
+
+/* 게시글 비추천 버튼*/
+    /*코드 분석이 완벽하지 않아서 잘 모른다*/
+    /*변경하고 싶다면 색상코드부분과 WHITE부분은 각각 통일할 것*/
+    /*background: white; 처럼 WHITE라고 적히면 모두 똑같이 통일*/
+    /*  border: solid #0275D8 3px; 처럼 #000000같은 색상코드 부분역시 모두 똑같이 통일*/
 
 .vote-btn[data-type="down"] {
 
@@ -652,58 +662,26 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 }
 
+
+
+
 /* 글씨체 - 메로나체 */
 @font-face { font-family: 'BinggraeMelona'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+    /*URL추가 후 아랫부분 반드시 적어줘야함 안그럼적용안됩니다*/
 * {
     font-family: 'BinggraeMelona';
 }
 
 
-/*눈내리는 효과*/
-html {
-
-   background: linear-gradient(to bottom, #8c83af, #FFFFFF);
-
-  height: auto !important;
-
-}
-
-
-
-body {
-
-background: transparent;
-
-animation: snow 20s linear infinite;
-
-
-
-/*백그라운드 이미지 원근감느낌 이미지*/
-
-background-image:url('https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png'), url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png"), url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
-
-}
-
-
-
-
-
-/*뒷배경 움직이는 애니메이션*/
-
-@keyframes snow {
-
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-
-}
 
 
 /*프로필배너 위치 왼쪽으로*/
+           /*프로필 기본위치는 오른쪽이다. 오른쪽이 좋으면 코드 전체를 지울것*/
 
 #board-info {
 
-    overflow: visible;
+    overflow: visible; /*뭔지잘모름 손댐X*/
 
 }
 
@@ -711,35 +689,30 @@ background-image:url('https://cdn.discordapp.com/attachments/460145928850898945/
 
 #board-info #board-info-profile-img{
 
-    float: left !important;
+    float: left !important; /*뭔지잘모름 손댐X*/
 
-    margin-right: 5px;
+    margin-right: 5px; /*뭔지잘모름 손댐X*/
 
-    width : 63px;
+    width : 63px; /*프로필 크기 키우기*/
 
-    border-radius: 100px;
+    border-radius: 100px; /*프로필 둥글기*/
 
-    border: solid 3px #7758A5;
+    border: solid 3px #7758A5; /*프로필 테두리*/
 }
+
 
 /*프로필 옆 라인*/
 #board-info h1 {
 
- border-bottom: 1px solid #7758A5;
+ border-bottom: 1px solid #7758A5; /*굵기와 색상코드입력*/
 
 }
 
 
 /*댓글 좋아요 대댓글 글자색 변경*/
 
-<<<<<<< HEAD
 .reply-menu>a{
 
-    color: black;
-=======
-    color: #C6B0FB; /* 추천 버튼 배경 색 */
-
-    border-color: #C6B0FB; /* 추천 버튼 테두리 색 */
->>>>>>> 4800008884e88fc2ef3723909b3ce339342b9bce
+    color: black; /*색상코드입력*/
 
 }
